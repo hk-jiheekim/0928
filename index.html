@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>비룡?그게 뭔데?</title>
+	<style type="text/css">
+		@font-face { font-family: 'TmonMonsori'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/TmonMonsori.woff') format('woff'); font-weight: normal; font-style: normal; }
+		body{background: black; margin: auto; margin: 0px; padding: 0px;}
+		.th{display: block; opacity: 0.5}
+		.th:hover{opacity: 1;}
+		#gfirst{position: absolute; top: 300px; left: 500px; }
+		.ql{color: white;position: absolute; font-size: 300px;  left: 210px; font-family: 'TmonMonsori';}
+		.fyd{color: white;position: absolute; font-size: 300px;  left: 1050px; font-family: 'TmonMonsori';}
+		.xmr{color: white;position: absolute; font-size: 250px; font-family: 'TmonMonsori'; top: -220px; left: 210px;}
+		
+	</style>
+</head>
+<body >
+	<p class="xmr">특급요리사</p>
+	<p class="ql">비</p>
+	<p class="fyd">룡</p>
+	<img src="./g.gif" id="gfirst" style="opacity: 1;">
+	<audio src="g.mp3" loop id="gg" ></audio>
+	
+
+ 	
+ 	<img src="./a.png" id="ak"  class="th" style="position: absolute; width: 450px; top: 700px; left: 250px; ">
+ 	<audio src="a.mp3" loop id="aa" ></audio>
+ 	
+ 	<img src="./b.png" id="bw" class="th" style="position: absolute; top: 700px; right: 350px; width: 350px; ">
+ 	<audio src="b.mp3" loop id="bb" ></audio>
+ 	
+ 	<img src="./c.png" id="ct" class="th" style="position: absolute;  left: 350px;
+ 	top: 1020px; width: 350px; ">
+ 	<audio src="c.mp3" loop id="cc" ></audio>
+
+
+ 	<img src="./d.png" id="dr" class="th" style="position: absolute; top: 1000px; right: 300px; width: 450px;">
+ 	<audio src="d.mp3" loop id="dd" ></audio>
+
+ 	
+ 	<img src="./e.png" id="ef" class="th" style="position: absolute; left: 250px; top: 1350px; width: 450px; ">
+	<audio src="e.mp3" loop id="ee" ></audio>
+ 	
+ 	
+ 	<img src="./f.png" id="fb" class="th" style="position: absolute; right:300px; top: 1350px; width: 500px;  height: 350px;">
+ 	<audio src="f.mp3" loop id="ff" ></audio>
+
+
+
+ 	<script type="text/javascript">
+
+ 		var akstate ="off";
+		ak.onclick=function(){
+			if(akstate =="off"){
+			ak.src = "a.gif";
+			ak.style.opacity ="1";
+			aa.play();
+			akstate = "on";}
+			else{
+				ak.src = "a.png";
+				ak.style.opacity ="0.5";
+				aa.pause();
+				akstate = "off";}}
+ 	
+ 		var bwstate ="off";
+		bw.onclick=function(){
+			if(bwstate =="off"){
+			bw.src = "b.gif";
+			bw.style.opacity ="1";
+			bb.play();
+			bwstate = "on";}
+			else{
+				bw.src = "b.png";
+				bw.style.opacity ="0.5";
+				bb.pause();
+				bwstate = "off";}}
+
+
+
+
+
+ 		var ctstate ="off";
+		ct.onclick=function(){
+			if(ctstate =="off"){
+			ct.src = "c.gif";
+			ct.style.opacity ="1";
+			cc.play();
+			ctstate = "on";}
+			else{
+				ct.src = "c.png";
+				ct.style.opacity ="0.5";
+				cc.pause();
+				ctstate = "off";}}
+
+ 		var drstate ="off";
+		dr.onclick=function(){
+			if(drstate =="off"){
+			dr.src = "d.gif";
+			dr.style.opacity ="1";
+			dd.play();
+			drstate = "on";}
+			else{
+				dr.src = "d.png";
+				dr.style.opacity ="0.5";
+				dd.pause();
+				drstate = "off";}}
+
+ 		var efstate ="off";
+		ef.onclick=function(){
+			if(efstate =="off"){
+			ef.src = "e.gif";
+			ef.style.opacity ="1";
+			ee.play();
+			efstate = "on";}
+			else{
+				ef.src = "e.png";
+				ef.style.opacity ="0.5";
+				ee.pause();
+				efstate = "off";}}
+ 	
+
+ 		var fbstate ="off";
+		fb.onclick=function(){
+			if(fbstate =="off"){
+			fb.src = "f.gif";
+			fb.style.opacity ="1";
+			ff.play();
+			fbstate = "on";}
+			else{
+				fb.src = "f.png";
+				fb.style.opacity ="0.5";
+				ff.pause();
+				fbstate = "off";}}
+
+		var gfirststate ="off";
+		gfirst.onclick=function(){
+			if(gfirststate =="off"){
+			gfirst.style.opacity ="1";
+			gg.play();
+			gfirststate = "on";}
+			else{gfirst.style.opacity ="0.7";
+				gg.pause();
+				gfirststate = "off";}}
+
+ 	</script>
+</body>
+</html>
